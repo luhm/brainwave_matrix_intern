@@ -171,6 +171,7 @@ body {
 .btn-primary, .btn-secondary {
   gap: 5px;
   text-transform: uppercase;
+  align-items: center;
 }
 
 :is(.btn-primary, .btn-secondary) ion-icon {
@@ -379,8 +380,19 @@ body {
   #FEATURE
 \*-----------------------------------*/
 
+.section .feature {
+  padding-block-start: 0;
+}
 
+.feature-list {
+  display: grid;
+  gap: 60px;
+  margin-block-end: 60%;
+}
 
+.feature .btn {
+  margin-inline: auto;
+}
 
 
 /*-----------------------------------*\
