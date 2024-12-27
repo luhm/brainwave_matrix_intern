@@ -142,6 +142,6 @@ Contact Us
 Terms & Conditions
 Privacy Policy
 
-&copy; 2022 codewithsadee, All Rights Reserved
+Made by <ion-icon name="paw-outline"></ion-icon> Luhm
 
 alt = shape

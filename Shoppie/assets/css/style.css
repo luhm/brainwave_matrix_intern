@@ -3,7 +3,7 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2022 codewithsadee
+ * Based on 2022 codewithsadee
  */
 
 /*-----------------------------------*\
@@ -68,6 +68,10 @@ body {
   line-height: 1.5;
 }
 
+.logo {
+  font-family: var(--fontFamily-clashDisplay);
+  font-size: var(--fontSize-5);
+}
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -75,10 +79,10 @@ body {
 
 :root {
   --bg-white: hsla(0, 0%, 100%, 1);
-  --bg-gainsboro: hsla(154, 10%, 86%, 1);
-  --bg-wild-blue-yonder: hsla(227, 39%, 75%, 1);
+  --bg-gainsboro: hsla(6, 15%, 62%, 0.3);
+  --bg-wild-blue-yonder: rgb(216, 197, 166);
   --bg-orange-crayola: hsla(18, 97%, 62%, 1);
-  --bg-roman-silver-alpha-30: hsla(210, 9%, 57%, 0.3);
+  --bg-roman-silver-alpha-30: hsla(6, 15%, 62%, 0.3);
 
   --text-orange-crayola: hsla(18, 97%, 62%, 1);
   --text-blue-crayola: hsla(216, 98%, 52%, 1);
@@ -393,6 +397,11 @@ body {
   margin-inline: auto;
 }
 
+.arrows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 /*-----------------------------------*\
   #FOOTER
@@ -513,7 +522,14 @@ address.footer-text {
     width: 100%;
     margin-inline: auto;
   }
+
+  .arrows {
+    font-size: 3.4rem;
+    siz
+  }
+
 }
+
 
 /* responsive for larger than 768px */
 
@@ -527,6 +543,11 @@ address.footer-text {
 
   .container {
     max-width: 720px;
+  }
+
+  .hero-banner {
+    max-width: 100%;
+    width: 100%;
   }
 
   .btn {
@@ -608,6 +629,6 @@ address.footer-text {
   .header.active .container, .header.active .cart-btn {
     border: none;
   }
-}
 
+}
 
