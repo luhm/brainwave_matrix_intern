@@ -386,7 +386,7 @@ body {
 .feature-list {
   display: grid;
   gap: 60px;
-  margin-block-end: 60%;
+  margin-block-end: 15%;
 }
 
 .feature .btn {
@@ -401,7 +401,7 @@ body {
 .footer {
   position: relative;
   background-color: var(--bg-gainsboro);
-  padding-block-start: 160px;
+  padding-block-start: 60px;
 }
 
 .footer-top {
